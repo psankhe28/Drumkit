@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Drumkit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        DRUM N BASS
+        <img class="logo" src="https://lh3.googleusercontent.com/xTXGPexsSIwSMGbViDpELoNWri__d5VU0JeuLHR9KvGylMwUis6zU55nPI4pBgeaNqueSdl-eK1Z8qW70dD_O4uyA9IafECx1TuTrWnJ4IvV0Bqwqc2PP9unWvQXjerVZoiNmUOKNA=w2400">
+    </h1>
+    <p class="note">Use keyboard to play drum</p>
+    <div class="keys">
+        <!--DATA-KEY VALUES ARE TAKEN FROM KEYCODE.INFO WEBSITE-->
+        <div class="key" data-key="65">
+            <kbd>A</kbd>
+            <span class="sound">clap</span>
+        </div>
+        <div class="key" data-key="83">
+            <kbd>S</kbd>
+            <span class="sound">hihat</span>
+        </div>
+        <div class="key" data-key="68">
+            <kbd>D</kbd>
+            <span class="sound">kick</span>
+        </div>
+        <div class="key" data-key="70">
+            <kbd>F</kbd>
+            <span class="sound">openhat</span>
+        </div>
+        <div class="key" data-key="71">
+            <kbd>G</kbd>
+            <span class="sound">boom</span>
+        </div>
+        <div class="key" data-key="72">
+            <kbd>H</kbd>
+            <span class="sound">ride</span>
+        </div>
+        <div class="key" data-key="74">
+            <kbd>J</kbd>
+            <span class="sound">snare</span>
+        </div>
+        <div class="key" data-key="75">
+            <kbd>K</kbd>
+            <span class="sound">tom</span>
+        </div>
+        <div class="key" data-key="76">
+            <kbd>L</kbd>
+            <span class="sound">tink</span>
+        </div>
+    </div>
+    <audio data-key="65" src="sound/clap.wav"></audio>
+    <audio data-key="83" src="sound/hihat.wav"></audio>
+    <audio data-key="68" src="sound/kick.wav"></audio>
+    <audio data-key="70" src="sound/openhat.wav"></audio>
+    <audio data-key="71" src="sound/boom.wav"></audio>
+    <audio data-key="72" src="sound/ride.wav"></audio>
+    <audio data-key="74" src="sound/snare.wav"></audio>
+    <audio data-key="75" src="sound/tom.wav"></audio>
+    <audio data-key="76" src="sound/tink.wav"></audio>
+    <script src="script.js></script>
+</body>
+</html>
